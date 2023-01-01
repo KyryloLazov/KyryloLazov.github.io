@@ -128,3 +128,15 @@ body {
     width: 100%;
     align-items: center;
 }
+
+
+@media (max-width: 800px) {
+    header, footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    main{
+        flex-direction: column;
+    }
+}
